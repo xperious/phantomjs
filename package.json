@@ -7,10 +7,10 @@
     "webkit"
   ],
   "description": "Headless WebKit with JS API",
-  "homepage": "https://github.com/Obvious/phantomjs",
+  "homepage": "https://github.com/Medium/phantomjs",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Obvious/phantomjs.git"
+    "url": "git://github.com/Medium/phantomjs.git"
   },
   "licenses": [
     {
@@ -39,18 +39,16 @@
     "test": "nodeunit --reporter=minimal test/tests.js"
   },
   "dependencies": {
-    "adm-zip": "0.2.1",
-    "kew": "~0.1.7",
-    "ncp": "0.4.2",
-    "npmconf": "0.0.24",
-    "mkdirp": "0.3.5",
-    "progress": "^1.1.5",
-    "request": "^2.40.0",
-    "request-progress": "^0.3.1",
-    "rimraf": "~2.2.2",
+    "adm-zip": "0.4.4",
+    "fs-extra": "~0.16.0",
+    "kew": "0.4.0",
+    "npmconf": "2.0.9",
+    "progress": "1.1.8",
+    "request": "2.42.0",
+    "request-progress": "0.3.1",
     "which": "~1.0.5"
   },
   "devDependencies": {
-    "nodeunit": "~0.7.4"
+    "nodeunit": "0.9.0"
   }
 }
